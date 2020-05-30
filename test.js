@@ -1,0 +1,10 @@
+let date = new Date()
+console.log(date)
+console.log(date.getTime())
+let date2 = new Date()
+date2.setMonth(5)
+console.log(date2.toString())
+let d1 = date.getTime()
+let d2 = date2.getTime()
+let dd = d2-d1
+console.log(parseInt(dd/1000/60/60/24)+'d')
